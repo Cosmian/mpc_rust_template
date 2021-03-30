@@ -21,3 +21,6 @@ cargo scaffold https://github.com/Cosmian/rust_mpc_template.git
 Let you be guided by the instructions displayed in your terminal to launch, emulate and test your first Rust MPC program.
 
 Have fun and feel free to make pull-requests to add features to this template and also report issues.
+
+## Demo
+[![asciicast](https://asciinema.org/a/Fmj2hhuzkoazAaSavasJPjfjL.svg)](https://asciinema.org/a/Fmj2hhuzkoazAaSavasJPjfjL)
