@@ -1,0 +1,50 @@
+# Basic template informations
+[template]
+name = "rust_mpc_template"
+author = "Benjamin Coenen <benjamin.coenen@cosmian.com>"
+version = "0.1.0"
+
+# Exclude paths you do not want copy/pasted in the generated project
+exclude = [
+    "target",
+    "vendor",
+    ".cargo_check"
+]
+
+# Notes to display at the end of the generation
+notes = """
+/!\\ As a first command please launch `cargo vendor` /!\\
+
+You are now able to run this Rust MPC program in emulation mode using the `bash emulate.sh` it will emulate the run by running your algorithm only on this single user.
+To emulate your inputs data you have to indicate the inputs data inside the data/inputs directory and be named like `player_1.json` for player 1 for example.
+After running it it will create the output files for each players with output data.
+
+If you want to write a test you just have to create a directory inside the `fixtures` directory and name it as you wish. Inside this directory you have to create `inputs` and `outputs` directory
+with json data inside for each players with the same syntax for filename as in emulation mode. Here is an example syntax of test in a Rust MPC program:
+
+```
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn first_test() {
+        cosmian_std::test!("my_test_name"); // the string my_test_name corresponds to the directory name you gave in the fixtures directory
+    }
+}
+
+```
+
+And to launch tests you just have to launch `bash test.sh`
+
+Last but not least if you want to check if everything builds correctly you can use `bash build.sh`
+
+/!\\ As a first command please launch `cargo vendor` /!\\
+"""
+
+
+[parameters]
+    [parameters.players_nb]
+    type = "integer"
+    message = "How many players will be part of this computation ?"
+    required = true
