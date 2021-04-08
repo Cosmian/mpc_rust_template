@@ -2,9 +2,7 @@
 #![cfg_attr(not(test), no_main)]
 
 use cosmian_std::prelude::*;
-use cosmian_std::scale;
-use cosmian_std::scale::println;
-use cosmian_std::{InputRow, OutputRow};
+use cosmian_std::{scale, scale::println, InputRow, OutputRow};
 
 // Players list
 {{#forRange players_nb}}
@@ -42,7 +40,7 @@ mod tests {
 
     #[test]
     fn test_example() {
-        // An example of test which can be runned with `bash test.sh`
+        // An example of test which can be run with `bash test.sh`
         cosmian_std::test!("example");
     }
 }

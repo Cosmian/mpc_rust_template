@@ -15,7 +15,7 @@ cargo install cargo-scaffold
 To scaffold your Rust MPC program:
 
 ```
-cargo scaffold https://github.com/Cosmian/rust_mpc_template.git
+cargo scaffold https://github.com/Cosmian/mpc_rust_template.git
 ```
 
 Let you be guided by the instructions displayed in your terminal to launch, emulate and test your first Rust MPC program.
