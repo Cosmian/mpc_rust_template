@@ -13,8 +13,6 @@ exclude = [
 
 # Notes to display at the end of the generation
 notes = """
-/!\\ As a first command please launch `cargo vendor` /!\\
-
 You are now able to run this Rust MPC program in emulation mode using the `bash emulate.sh` it will emulate the run by running your algorithm only on this single user.
 To emulate your input data you have to indicate the input data inside the data/inputs directory and be named like `player_1.json` for player 1 for example.
 After running it, it will create the output files for each player with output data.
@@ -37,9 +35,16 @@ mod tests {
 And to launch tests you just have to launch `bash test.sh`
 
 Last but not least if you want to check if everything builds correctly you can use `bash build.sh`
-
-/!\\ As a first command please launch `cargo vendor` /!\\
 """
+
+
+[hooks]
+# Commands to be executed before scaffolding, from within the generated project
+# pre = []
+# Commands to be executed after scaffolding, from within the generated project
+post = [
+    "cargo vendor"
+]
 
 
 [parameters]
