@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Init fake examples for emulatioon
+# Init fake examples for emulation
 if [ -f data/inputs/player_x.json ]; then
     mv data/inputs/player_x.json data/inputs/player_0.json
     for ((i=1 ; i < {{players_nb}} ; i++))

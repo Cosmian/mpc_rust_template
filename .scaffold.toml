@@ -45,7 +45,7 @@ Last but not least if you want to check if everything builds correctly you can u
 post = [
     "cargo vendor",
     "cp SharingData.txt vendor/scale-core",
-    "bash init.sh",
+    "./init.sh",
     "rm init.sh"
 ]
 
