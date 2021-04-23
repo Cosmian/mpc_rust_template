@@ -22,7 +22,7 @@ Follow the instructions displayed in your terminal to launch, emulate and test y
 
 ## Editing and testing
 
-To edit the code, we recommend that you use the free VSCode and rust-analyzer extension.
+To edit the gererated code, we recommend that you use the free VSCode and rust-analyzer extension.
 
 To check the validity of your code, simply run  `cargo build`.
  
