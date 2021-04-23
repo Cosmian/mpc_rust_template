@@ -69,7 +69,5 @@ on how to use its UI to configure a computation.
 
 Have fun and feel free to make pull-requests to add features to this template and also report issues.
 
-<!--
 ## Demo
-[![asciicast](https://asciinema.org/a/Fmj2hhuzkoazAaSavasJPjfjL.svg)](https://asciinema.org/a/Fmj2hhuzkoazAaSavasJPjfjL)
---!>
+[![asciicast](https://asciinema.org/a/3Xw78mjDC71SRvK0gwcd2jbo9.svg)](https://asciinema.org/a/3Xw78mjDC71SRvK0gwcd2jbo9)
