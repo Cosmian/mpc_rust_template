@@ -34,7 +34,7 @@ mod tests {
 
 And to launch tests you just have to launch `./test.sh`
 
-Last but not least if you want to check if everything builds correctly you can use `./build.sh`
+Last but not least if you want to check if everything builds correctly you can simply run `cargo build`
 """
 
 
