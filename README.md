@@ -4,7 +4,7 @@ This templates helps you generate your own Rust MPC program using [cargo scaffol
 
 ## Installation
 
-If you don't have already cargo scaffold installed on your machine, please run:
+If you do not have cargo scaffold installed on your machine, please run:
 
 ```
 cargo install cargo-scaffold
@@ -18,7 +18,7 @@ To scaffold your Rust MPC program:
 cargo scaffold https://github.com/Cosmian/mpc_rust_template.git
 ```
 
-Follow the instructions displayed in your terminal to launch, emulate and test your first Rust MPC program.
+Follow the instructions displayed in your terminal to launch, to emulate and to test your first Rust MPC program.
 
 ## Editing and testing
 
