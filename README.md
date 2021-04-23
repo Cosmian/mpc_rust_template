@@ -1,6 +1,6 @@
 # Rust MPC template
 
-This templates helps you generate first own Rust MPC program using [cargo scaffold](https://github.com/iomentum/cargo-scaffold).
+This templates helps you generate your own Rust MPC program using [cargo scaffold](https://github.com/iomentum/cargo-scaffold).
 
 ## Installation
 
